@@ -1,32 +1,145 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Staatliches");
+@import url("https://fonts.googleapis.com/css?family=Karla");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Ultra");
+
+/* Global */
+a {
+  text-decoration: none !important;
+  color: rgb(204, 0, 255);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.base {
+  background-color: #fafafa;
+  padding-bottom: 60px;
+  /* background: linear-gradient(45deg, #ffffff 0%, #eef0f4 100%); */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row {
+  padding-top: 40px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.col-md-6 {
+  position: sticky;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.right {
+  padding-top: 20px;
+}
+
+.player {
+  display: absolute;
+  width: 100%;
+  height: 100px;
+}
+
+.episode {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 3px 11px 15px -5px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 3px 11px 15px -5px rgba(0, 0, 0, 0.13);
+  box-shadow: 3px 11px 15px -5px rgba(0, 0, 0, 0.05);
+  display: relative;
+}
+
+.title {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.num {
+  font-family: "Roboto Mono", monospace;
+  font-size: 50px;
+  padding: 20px;
+  display: inline;
+  color: #ccd1dd;
+}
+
+.innerContent {
+  position: absolute;
+  display: inline-block;
+  font-family: "Karla", sans-serif;
+}
+
+.epiTitle {
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 28px;
+}
+
+.epiContent {
+  font-size: 14px;
+  padding-right: 14px;
+  line-height: 18px;
+  color: #919191;
+}
+
+iframe {
+  box-shadow: none !important;
+  border-bottom: rgb(255, 255, 255) 4px solid;
+}
+
+p {
+  margin-top: 10px;
+}
+
+/* Dynamic styles */
+
+.mainTitle {
+  font-family: "Staatliches", cursive;
+  font-size: 72px;
+}
+
+/* Mobile devices */
+
+@media only screen and (max-width: 600px) {
+  .description {
+    font-family: "Roboto Mono", monospace;
+    font-size: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #727272;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Desktop and larger devices */
+
+@media only screen and (min-width: 600px) {
+  .description {
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    color: #727272;
+    padding-right: 80px;
+    margin-top: 10px;
   }
+}
+
+.appleLogo {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.googleLogo {
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.info {
+  margin-top: 50px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.footer {
+  margin-top: 50px;
+  color: #969696;
 }
