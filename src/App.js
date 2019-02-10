@@ -37,7 +37,7 @@ class App extends Component {
                   href="https://itunes.apple.com/us/podcast/designcast/id1401315842?mt=2&uo=4"
                   target="_blank"
                 >
-                  <img src={apple} height="40px" width="165px" />
+                  <img src={apple} height="34px" />
                 </a>
               </div>
               <div className="googleLogo">
@@ -45,7 +45,7 @@ class App extends Component {
                   href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81MDNmMjNjL3BvZGNhc3QvcnNz"
                   target="_blank"
                 >
-                  <img src={google} height="40px" width="165px" />
+                  <img src={google} height="34px" />
                 </a>
               </div>
               <div className="info">
@@ -119,6 +119,9 @@ class App extends Component {
               {/* Episode card end */}
             </div>
           </div>
+        </div>
+        <div className="footer-mobile">
+          Made in-house Designcult | © Copyright 2019
         </div>
       </div>
     );
