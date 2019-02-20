@@ -16,7 +16,7 @@ a {
 }
 
 .row {
-  padding-top: 40px;
+  padding-top: 20px;
   display: flex;
 }
 
@@ -94,7 +94,7 @@ p {
   }
 
   .mainTitle {
-    font-family: "Staatliches", cursive;
+    font-family: "Staatliches", sans-serif;
     font-size: 60px;
   }
 
@@ -179,7 +179,7 @@ p {
   }
 
   .mainTitle {
-    font-family: "Staatliches", cursive;
+    font-family: "Staatliches", sans-serif;
     font-size: 72px;
   }
 

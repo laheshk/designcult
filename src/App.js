@@ -4,7 +4,7 @@ import google from "./google.svg";
 
 import "./App.css";
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="base">
