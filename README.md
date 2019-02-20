@@ -1,8 +1,8 @@
-#Designcult#
+# Designcult
 
 A podcast about design.
 
-To run this locally clone this repo and
+To run this locally, clone this repo and
 
     npm start
 
