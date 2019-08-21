@@ -9,14 +9,21 @@ a {
   color: rgb(204, 0, 255);
 }
 
+body{
+  
+  margin: 0;
+}
+
 .base {
   /* background-color: #fafafa; */
-  padding-bottom: 60px;
+  height: 100vh;
   background: linear-gradient(130deg, #ffffff 0%, #e1e3e7 100%);
+  padding-bottom: 60px;
+  
 }
 
 .row {
-  padding-top: 20px;
+  padding-top: 40px;
   display: flex;
 }
 

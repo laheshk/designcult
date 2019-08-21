@@ -27,7 +27,7 @@ class App extends React.Component {
                 <p>
                   We talk everything about design and chat with leading design
                   minds, academics and proffessionals to deliver thoughtful
-                  content consisted of areas like digital product design, design
+                  content; consisted of areas like digital product design, design
                   processes, creative thinking and design sustainability.
                   Episodes are recorded and issued monthly.
                 </p>
